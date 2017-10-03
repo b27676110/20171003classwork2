@@ -63,7 +63,7 @@ public class MainJFrame extends JFrame{
                 for(int i = 0;i<num;i++){
                     cha[i] += n;
                 }
-                jtaR.setText(new String(cha);
+                jtaR.setText(new String(cha));
 
             }
         });
@@ -72,7 +72,6 @@ public class MainJFrame extends JFrame{
             public void actionPerformed(ActionEvent e) {
                 jtaL.setText("");
                 jtaR.setText("");
-
             }
         });
         jbtn4.addActionListener(new AbstractAction() {
